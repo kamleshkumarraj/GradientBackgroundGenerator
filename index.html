@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linear Gradient Background generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-section">
+
+        <div class="nav-bar">
+            <ul class="nav-list">
+            <li class="gradient nav-item">Type of Gradient 
+
+                <ul class="gradient-list nav-item-list">
+                    <li class="linear">Linear Gradient</li> <hr>
+                    <li class="radial">Radial Gradient</li>
+                </ul>
+            </li>
+
+            <li class="Number color nav-item">Number of color
+                <ul class="number-list nav-item-list">
+                 <li> 
+                    <label for="number">Number of Color</label>  <br>
+                    <input  type="number" name="number" value="" id="" max="6" min="2" class="colorNumber">
+                </li>
+            </ul>
+            </li>
+
+            <li class="direction nav-item">Direction
+                <ul class="direction-list nav-item-list">
+                    <li>
+                    <label for="input">Insert degree</label> <br>
+                    <input type="range" id="" min="0" max="360" class="direction-input">
+                </li>
+                </ul>
+            </li>
+
+        </ul>
+        </div>
+
+       <div class="main-page">
+        <div class="background-page"></div>
+        <div class="function-page">
+            <h1>we create random gradient background color</h1>
+            <div class="color-box">
+
+            </div>
+            <div class="color-code">
+                <label for="">Copy Your code : </label>
+                <textarea name="" id="" cols="30" rows="10" class="textBox"></textarea>
+            </div>
+        </div>
+       </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
